@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>计算交易价格</title>
+</head>
+<body>
+    <h1>计算交易价格</h1>
+    <form action="/" method="post">
+        <label for="dl">大楼价格：</label>
+        <input type="number" id="dl" name="dl" required><br>
+        <label for="pz">品质加成：</label>
+        <input type="number" id="pz" name="pz" step="0.01" required><br>
+        <label for="rg">人工费：</label>
+        <input type="number" id="rg" name="rg" required><br>
+        <label for="sl">数量：</label>
+        <input type="number" id="sl" name="sl" required><br>
+        <button type="submit">计算</button>
+    </form>
+</body>
+</html>
